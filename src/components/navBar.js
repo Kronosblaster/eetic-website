@@ -1,10 +1,10 @@
 import React from "react";
-function card(){
+function navBar(){
     return(
-    <div className="card">
+<div className="navBar">
         <p>Hello World</p>
       </div>
     );
 }
 
-export default card;
+export default navBar;

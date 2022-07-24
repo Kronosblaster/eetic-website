@@ -3,12 +3,12 @@ import React from "react";
 import './App.css';
 import './components/css/card.css';
 
-import card from './components/card.js';
+import Card from './components/card';
 
 function App() {
   return (
     <div className="App">
-      <card></card>
+      <Card />
     </div>
   );
 }

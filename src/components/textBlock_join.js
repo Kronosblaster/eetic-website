@@ -1,10 +1,10 @@
 import React from "react";
-function card(){
+function textBlock_join(){
     return(
-    <div className="card">
+    <div className="textBlock_join">
         <p>Hello World</p>
       </div>
     );
 }
 
-export default card;
+export default textBlock_join;

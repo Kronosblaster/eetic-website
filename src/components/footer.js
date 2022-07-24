@@ -1,10 +1,10 @@
 import React from "react";
-function card(){
+function footer(){
     return(
-    <div className="card">
+    <div className="footer">
         <p>Hello World</p>
       </div>
     );
 }
 
-export default card;
+export default footer;
