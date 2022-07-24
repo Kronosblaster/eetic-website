@@ -8,8 +8,8 @@ import './components/css/textBlock_join.css';
 
 import NavBar from './components/navBar';
 import CardPanel from './components/cardPanel';
-import Text_intro from './components/textBlock_intro';
-import Text_join from './components/textBlock_join';
+import TextIntro from './components/textBlock_intro';
+import TextJoin from './components/textBlock_join';
 import Footer from "./components/footer";
 
 
@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Text_intro/>
-      <Text_join/>
+      <TextIntro/>
+      <TextJoin/>
       <CardPanel /> 
       <Footer/> 
     </div>
