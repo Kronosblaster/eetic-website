@@ -1,5 +1,14 @@
 .navBar{
-    background-color: #FFF7F4;
-    width: 1441;
-    height: 550;
+    position: absolute;
+width: 1440px;
+box-sizing: content-box;
+height: 81px;
+left: 0px;
+top: 0px;
+padding: 10;
+margin: 10;
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 4px 26px rgba(186, 186, 186, 0.2);
 }

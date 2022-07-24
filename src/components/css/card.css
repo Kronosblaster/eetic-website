@@ -1,7 +1,7 @@
 .card{
-    border-radius: 25px;
-    background: #ccd6be;
-    padding: 20px;
-    width: 41.8px;
-    height: 44.3px;
+position: absolute;
+width: 418px;
+height: 443px;
+left: 478px;
+top: 0px;
 }

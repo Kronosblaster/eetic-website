@@ -1,4 +1,9 @@
 .App {
-  text-align: center;
+position: relative;
+max-width: 1440px;
+box-sizing: content-box;
+max-height: 2677px;
+text-align: center;
+background: #ce8a8a;
 }
 

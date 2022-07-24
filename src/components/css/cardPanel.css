@@ -1,7 +1,9 @@
 .cardPanel{
-    background-color: #FFF7F4;
-    width: 1441;
-    height: 550;
-    display:flex;
+    position: absolute;
+width: 1320px;
+height: 542px;
+left: 60px;
+top: 1506px;
+overflow-x: scroll;
 
 }
