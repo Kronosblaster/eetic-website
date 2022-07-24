@@ -2,8 +2,6 @@
     background-color: #FFF7F4;
     width: 1441;
     height: 550;
-    border-color: black;
-    border-width: 10;
-    border-style:solid;
-    padding: 100;
+    display:flex;
+
 }
