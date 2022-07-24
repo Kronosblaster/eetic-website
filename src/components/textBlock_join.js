@@ -2,7 +2,7 @@ import React from "react";
 function textBlock_join(){
     return(
     <div className="textBlock_join">
-        <p>Hello World</p>
+        <p>Text J</p>
       </div>
     );
 }

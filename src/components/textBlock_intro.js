@@ -2,7 +2,7 @@ import React from "react";
 function textBlock_intro(){
     return(
     <div className="textBlock_intro">
-        <p>Hello World</p>
+        <p>Text I</p>
       </div>
     );
 }
