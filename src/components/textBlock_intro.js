@@ -1,4 +1,5 @@
 import React from "react";
+import './css/textBlock_intro.css';
 function textBlock_intro(){
     return(
     <div className="textBlock_intro">
