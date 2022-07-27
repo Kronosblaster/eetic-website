@@ -1,12 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
 .navBar{
-position: relative;
-min-width: 1440px;
-height: 81px;
+position: absolute;
+width: 1440px;
+height: 300px;
 left: auto;
 padding: 10;
 margin: 10;
 background: #FFFFFF;
 /* shadow */
-
 box-shadow: 0px 4px 26px rgba(186, 186, 186, 0.2);
+}
+.btn.btn-primary{
+    height: 51px;
+    width:147px;
+    border-radius: 50px;
+    background-color: #FF845E;
+    position: relative;
+    left: 1730px;
+    border-color: #FF845E;
+    font-family:'Poppins';
+    font-size: 20px;
+    
+}
+.btn.btn-primary:hover{
+    background-color: #fa9c7f;
+    border-color: #FF845E;
+}
+.btn.btn-primary:click{
+
 }

@@ -1,11 +1,14 @@
 import React from "react";
 import './css/navBar.css';
+import Navbar from 'react-bootstrap/Navbar';
+import Button from "react-bootstrap/Button";
+import "@fontsource/poppins";
 
 function navBar(){
     return(
-<div className="navBar">
-        <p>Nav bar</p>
-      </div>
+      <Navbar>
+        <Button>Sign Up</Button>
+      </Navbar>
     );
 }
 

@@ -9,6 +9,7 @@ function cardPanel(){
         <Card/>
         <Card/>
         <Card/>
+        <Card/>
       </div>
     );
 }
