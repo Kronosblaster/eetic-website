@@ -9,6 +9,7 @@ height: 100%;
     width: 100%;
     background: #FFFFFF;
     align-items:center;
+    font-family: 'Poppins';
 }
 
 
@@ -21,7 +22,6 @@ height: 100%;
     border-radius: 50px;
     background-color: #FF845E;
     border-color: #FF845E;
-    font-family:'Poppins';
     font-size: 20px;
    
     
@@ -33,7 +33,6 @@ height: 100%;
 .logo{
     position: absolute;
     top: 14px;
-    font-family: 'Poppins';
     font-style:normal;
     font-weight: 600;
     font-size: 32px; 
@@ -55,3 +54,27 @@ height: 100%;
     left: 133px;
     color: #000000;
     }
+
+.links{
+    position: absolute;
+    top: 24px;
+    font-size: 21px; 
+}
+
+.home{
+    left: 50%;
+}
+.events{
+    left: 55%;
+}
+.about{
+    width: 200px;
+    text-align: left;
+    left: 60%;   
+}
+.team{
+    left: 66%;
+}
+.signIn{
+    right: 10%;
+}
