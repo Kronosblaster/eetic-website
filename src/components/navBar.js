@@ -7,7 +7,17 @@ function navBar(){
     return(
       <div className="navbox">
       <Navbar>
-        <div className="logo"><img src={logo}/></div>
+        
+         <div className="logo1">
+         EETICommunity
+         </div>
+
+         <div className="logo2">
+         EETIC
+         </div>
+         <div className="logo3">
+         ommunity
+         </div>
         <Button>Sign Up</Button>
       </Navbar>    
       </div>
