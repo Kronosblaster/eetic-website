@@ -40,7 +40,9 @@ height: 100%;
     user-select: none; 
     color: #595D6B;
 }
-
+.links:hover{
+    color: #FF845E;
+}
 .l1{
     left: 50px;
     color: transparent; 
@@ -60,6 +62,7 @@ height: 100%;
     position: absolute;
     top: 24px;
     font-size: 21px; 
+    user-select: none; 
 }
 
 .home{
