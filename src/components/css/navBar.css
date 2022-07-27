@@ -17,7 +17,7 @@ height: 100%;
 .btn.btn-primary{
     height: 51px;
     width:147px;
-    right:  10px;
+    right:  30px;
     position: absolute;
     border-radius: 50px;
     background-color: #FF845E;
@@ -38,6 +38,7 @@ height: 100%;
     font-size: 32px; 
     line-height: 48px; 
     user-select: none; 
+    color: #595D6B;
 }
 
 .l1{
@@ -62,19 +63,19 @@ height: 100%;
 }
 
 .home{
-    left: 50%;
+    left: 45%;
 }
 .events{
-    left: 55%;
+    left: 50%;
 }
 .about{
     width: 200px;
     text-align: left;
-    left: 60%;   
+    left: 55%;   
 }
 .team{
-    left: 66%;
+    left: 61.5%;
 }
 .signIn{
-    right: 10%;
+    right: 11%;
 }
