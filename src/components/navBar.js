@@ -8,14 +8,14 @@ function navBar(){
       <div className="navbox">
       <Navbar>
         
-         <div className="logo1">
+         <div className="logo l1">
          EETICommunity
          </div>
 
-         <div className="logo2">
+         <div className="logo l2">
          EETIC
          </div>
-         <div className="logo3">
+         <div className="logo l3">
          ommunity
          </div>
         <Button>Sign Up</Button>
