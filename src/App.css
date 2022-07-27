@@ -1,13 +1,7 @@
 .App {
-position: absolute;
-width: 1440px;
-box-sizing: content-box;
-max-height: 2677px;
+position: relative;
 text-align: center;
-background: #ce8a8a;
+background: #F5F5F5;
 align-items: center;
-display:contents;
-padding: 100px;
-margin: 100px;
 }
 
