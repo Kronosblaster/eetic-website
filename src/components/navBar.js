@@ -2,7 +2,6 @@ import React from "react";
 import './css/navBar.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from "react-bootstrap/Button";
-import logo from "./elements/EETICommunity.svg";
 function navBar(){
     return(
       <div className="navbox">
@@ -18,11 +17,13 @@ function navBar(){
          <div className="logo l3">
          ommunity
          </div>
-           <div className="home links">Home</div>
-           <div className="events links">Events</div>
-           <div className="about links">About Us</div>
-           <div className="team links">Team</div>
-           <div className="signIn links">Sign in</div>
+         <div className="links">
+           <div className="home mouse">Home</div>
+           <div className="events mouse">Events</div>
+           <div className="about mouse">About Us</div>
+           <div className="team mouse">Team</div>
+           </div>
+           <div className="signIn mouse">Sign in</div>
         <Button>Sign Up</Button>
       </Navbar>    
       </div>

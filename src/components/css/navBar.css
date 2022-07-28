@@ -7,6 +7,7 @@ height: 100%;
     box-shadow: 0px 4px 26px rgba(186, 186, 186, 0.2);
     height: 81px;
     width: 100%;
+    min-width: 1800px;
     background: #FFFFFF;
     align-items:center;
     font-family: 'Poppins';
@@ -17,7 +18,7 @@ height: 100%;
 .btn.btn-primary{
     height: 51px;
     width:147px;
-    right:  30px;
+    left: 1650px;
     position: absolute;
     border-radius: 50px;
     background-color: #FF845E;
@@ -40,7 +41,7 @@ height: 100%;
     user-select: none; 
     color: #595D6B;
 }
-.links:hover{
+.mouse:hover{
     color: #FF845E;
 }
 .l1{
@@ -59,26 +60,36 @@ height: 100%;
     }
 
 .links{
-    position: absolute;
-    top: 24px;
+    position: relative;
+    top: 0px;
     font-size: 21px; 
     user-select: none; 
+    display: grid;
+    text-align: left;
+    left:680px;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 60px;
 }
 
+
+
+
+
+
 .home{
-    left: 45%;
 }
 .events{
-    left: 50%;
 }
 .about{
-    width: 200px;
-    text-align: left;
-    left: 55%;   
 }
 .team{
-    left: 61.5%;
 }
 .signIn{
-    right: 11%;
+    position: absolute;
+    font-size: 21px; 
+    user-select: none; 
+    display: grid;
+    text-align: left;
+    left: 1540px; 
+    top: 16;
 }
