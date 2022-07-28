@@ -41,9 +41,6 @@ height: 100%;
     user-select: none; 
     color: #595D6B;
 }
-.mouse:hover{
-    color: #FF845E;
-}
 .l1{
     left: 50px;
     color: transparent; 
@@ -80,4 +77,10 @@ height: 100%;
     text-align: left;
     left: 1560px; 
     top: 16;
+}
+
+
+
+.mouse:hover{
+    color: #FF845E;
 }
