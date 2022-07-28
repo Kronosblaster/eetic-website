@@ -1,6 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
 .textBlock_intro{
-    background: #F5F5F5;
+    background: #FFFFFF;
     position: relative;
-    box-sizing: content-box;
-    top:100px;
+    top:30px;
+    text-align: left;
+    height: 353px;
+    padding: 66px;
+    font-family: 'Poppins';
+}
+.p1{
+    font-size: 58px;
+    line-height: 87px;
+    width: 674px;
+}
+.p2{
+    font-size: 52px;
+    line-height: 65px;
+    width: 674px;
+    color: #FF845E;
+}
+.p3{
+    font-size: 20px;
+    line-height: 30px;
+    width: 674px;
+    color: #595D6B;
+}
+.btn.btn-outlined{
+    height: 51px;
+    width:147px;
+    position: absolute;
+    border-radius: 50px;
+    border-color: #FF845E;
+    font-size: 20px;
+    color:#595D6B;
+   
+    
 }
