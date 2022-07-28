@@ -7,9 +7,12 @@ import left_arrow from './site_images/arrow-left.svg';
 import right_arrow from './site_images/arrow-right.svg';
 
 
-//const [i,setIndex]=useState(0);
-var i=0;
-/*
+
+
+
+function textBlock_intro(){
+  const [i,setIndex]=useState(0);
+
 function left(){
   if(i===0)
     setIndex(IMAGES.length-1);
@@ -24,15 +27,6 @@ function right(){
   else
   setIndex(i+1);
 }
-*/
-function left(){
-  console.log("left");
-}
-function right(){
-  console.log("right");
-}
-
-function textBlock_intro(){
     return(
     <div className="textBlock_intro">
         <div className="text">
